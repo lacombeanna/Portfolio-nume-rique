@@ -1,0 +1,167 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	color: #444444;
+	font-family: Helvetica, sans-serif;
+}
+h1 {
+	font-size: 55px;
+}
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
+h3 {
+	font-size: 45px;
+	font-family:'Amatic SC', cursive; sans-serif;
+	text-align: center;
+}
+
+h1, h2 {
+	font-family:'Rambla', sans-serif;
+}
+
+p {
+	line-height: 1.4;
+	font-size: 15px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+.container {
+	padding: 50px 100px;
+}
+
+.container h2, 
+.container h3 {
+	color: #06021F;
+}
+
+/* PAGE MENU
+-----------------------------------------*/
+.menu {
+	list-style: none;
+	padding: 5px 5px;
+	margin: 0;
+	text-align: center;
+	border-bottom: 4px solid #E2FC03;
+	background: #06021F;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	font-size: 28px;
+}
+.menu li {
+	display: inline-block;
+	padding: 7px 7px;
+}
+.menu a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family:'Rambla', sans-serif;
+}
+
+
+/* BANNER 
+-----------------------------------------*/
+img.logo {
+	padding: 7px;
+}
+
+img.profile {
+	border: 1px solid grey;
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+	float: left;
+	margin-right: 20px;
+}
+.banner {
+	padding-top: 120px;
+	padding-bottom: 80px;
+	background: #06021F;
+	color: #ffffff;
+	text-align: center;
+}
+.banner h1 {
+	margin-bottom: 10px;
+}
+.banner p {
+	font-size: 22px;
+}
+
+/* ABOUT
+-----------------------------------------*/
+.about {
+	background: url('../images/tile1.png');
+	overflow: hidden;
+}
+.about h2 {
+	text-align: center;
+}
+.favourites {
+	text-align: center;
+}
+.lili {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+  font-size: 15px;
+  text-align: left
+}
+
+/* FAVOURITES 
+-----------------------------------------*/
+.fav-img {
+	border: 1px solid grey;
+	width: 306px;
+	padding: 5px;
+	margin: 10px;
+}
+
+.flexslider-wrap {
+    width: 100%; /* makes the slider 50% of its container */
+    margin: 50px auto; /* center aligns the slider */
+}
+
+/* CONTACT 
+-----------------------------------------*/
+.contact {
+	background: url('../images/tile2.png');
+}
+.contact h2 {
+	text-align: center
+}
+
+.theend {
+	background: #E2FC03;
+	text-align: center;
+	border: 0px;
+	padding: 4px 0px;
+	margin: 0px;
+	color: #06021F;
+}
+
+
+
+/* RESPONSIVE
+-----------------------------------------*/
+@media only screen and (max-width: 400px) {
+	.flexslider-wrap 
+}
+
+
+font-family: 'Amatic SC', cursive;
+font-family: 'Rakkas', cursive;
+font-family: 'Rambla', sans-serif;
+
